@@ -148,22 +148,25 @@ form{
 
 form>input{
     width:80%;
-    height: 40px;
+    height: 50px;
     border-radius: 100px;
     margin-top: 30px;
     background-color: black;
     border: 2px solid #FCAF02;
+    padding-left: 30px;
+    font-size: 15px;
+    color: white;
+    outline:none;
 }
 
 ::placeholder{
     color: #FCAF02;
     font-size: 18px;
-    padding-left: 20px;
+    padding: 10px;
 }
 
  .tel{
     width:40%;
-    height: 40px;
     border-radius: 100px;
     margin-top: 30px;
     background-color: black;
