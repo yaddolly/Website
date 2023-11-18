@@ -1,0 +1,245 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+    box-sizing: border-box;
+}
+
+           /* navbar */
+#navbar{
+    width:100%;
+    height:60px;
+    background-color:#FCAF02;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: sticky;
+    top: 0;
+    /* border: 2px solid red; */
+}
+
+#startup{
+width:20%;
+text-align: center;
+font-family: Montserrat;
+font-size: 22px;
+font-weight: 700;
+/* border: 2px solid red; */
+}
+
+
+#nav-link{
+    width:50%;
+    /* border: 2px solid red; */
+}
+
+#links{
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+}
+
+#links>li{
+    list-style-type: none;
+}
+
+#links>li>a{
+color: black;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+text-decoration: none;
+}
+
+/* main-container */
+.MainContainer{
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    border: 2px solid blue;
+}
+
+ #intro{
+    width: 100%;
+    height: 400px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    /* border: 2px solid blue; */
+} 
+
+ #info{
+    width: 60%;
+    margin-left: 30px;
+    /* border:2px solid red; */
+} 
+
+#info>h1{
+    color: #FFF;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-bottom: 15px;
+} 
+
+#info>p{
+color: #FFF;
+font-size: 18px;
+margin-bottom: 20px;
+} 
+
+ #info>button{
+    width: 150px;
+    height: 40px;
+    border-radius: 500px;
+    background-color:#FCAF02;
+    color: black;
+    font-size: 15px;
+    font-weight: 700;
+} 
+
+ #profile{
+    width: 35%;
+    margin-right: 30px;
+    /* border:2px solid red; */
+} 
+
+ #profile>img{
+    width:90%;
+    height: 80%;
+} 
+
+#contact-us{
+    width: 100%;
+    height: 500px;
+    margin: auto;
+    /* border: 2px solid blue; */
+}
+
+ #contact-us>h1{
+   width: 50%;
+   color:#FCAF02;
+   font-size: 64px;
+   font-style: normal;
+   font-weight: 600;
+   line-height: normal;
+   margin-left:30px;
+   margin-top: 20px;
+   /* border: 2px solid blue; */
+}
+
+ #contact-detail{
+    width: 90%;
+    margin-top: 20px;
+    margin-left:30px;
+    /* border: 2px solid blue; */
+}
+
+form{
+    width:85%;
+    height: 400px;
+    margin-left: 30px;
+    /* border: 2px solid blue; */
+}
+
+form>input{
+    width:80%;
+    height: 40px;
+    border-radius: 100px;
+    margin-top: 30px;
+    background-color: black;
+    border: 2px solid #FCAF02;
+}
+
+ .tel{
+    width:40%;
+    height: 40px;
+    border-radius: 100px;
+    margin-top: 30px;
+    background-color: black;
+    border: 2px solid #FCAF02;
+} 
+
+.btn{
+width: 250px;
+height: 50px;
+text-align: center;
+border-radius: 100px;
+margin-top: 40px;
+border: 2px solid #FCAF02;
+background-color: #FCAF02;
+color: #000;
+font-size: 25px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+margin-left: 30%;
+}
+
+#table{
+    width: 90%;
+    margin: auto;
+}
+
+#table>table{
+    border: 1px solid #FCAF02;
+    border-collapse: collapse;
+    color: #FCAF02;
+    width: 98%;
+    font-family: Montserrat;
+    font-size: 25px;
+    font-weight: 400;
+    line-height: 34px;
+    letter-spacing: 0em;
+    text-align: left;
+    border-radius: 10px;
+}
+#table>table>tbody td{
+    border-right: 2px solid #FCAF02 ;
+    padding-left: 50px;
+    height: 85px;
+}
+#table>table th{
+    border-right: 2px solid #FCAF02 ;
+    border-bottom: 2px solid #FCAF02 ;
+    height: 40px;
+}
+#table>table>tfoot td{
+    background-color: #FCAF02;
+    color: #000000;
+    height: 78px;
+    padding-left: 50px;
+    border-right: 2px solid #000000 ;
+    font-weight: 400;
+}
+#th1{
+width: 8%;
+padding: 25px;
+font-weight: 400;
+}
+#th2{
+ width: 33%;
+ padding-left: 33px;
+ font-weight: 400;
+}
+#th3{
+ width: 59%;
+ font-weight: 400;
+ padding-left: 47px;
+}
+#table>table>tfoot>tr>#foot1{
+    padding-left: 40px;;
+}
+#table>table>tfoot>tr>#foot2{
+    border-right: 2px solid #FCAF02;
+}
+#table>table>tbody>tr:nth-child(1)>td{
+    padding-top: 29px;
+}
+#table>table>tbody>tr:nth-child(6)>td{
+    padding-bottom: 38px;
+}
