@@ -63,8 +63,9 @@ text-decoration: none;
 }
 
  #intro{
-    width: 100%;
-    height: 400px;
+    width: 95vw;
+    height: 500px;
+    margin: auto;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -73,125 +74,112 @@ text-decoration: none;
 
  #info{
     width: 60%;
-    margin-left: 30px;
+    height: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
     /* border:2px solid red; */
-} 
+}
 
 #info>h1{
     color: #FFF;
-    font-size: 40px;
-    font-style: normal;
+    font-size: 50px;
     font-weight: 700;
-    line-height: normal;
-    margin-bottom: 15px;
-} 
+}
 
 #info>p{
 color: #FFF;
-font-size: 18px;
-margin-bottom: 20px;
-} 
+font-size: 20px;
+}
 
- #info>button{
+#info>button{
     width: 150px;
     height: 40px;
     border-radius: 500px;
     background-color:#FCAF02;
     color: black;
-    font-size: 15px;
+    font-size: 20px;
     font-weight: 700;
-} 
+    border: none;
+}
 
- #profile{
-    width: 35%;
-    margin-right: 30px;
+#profile{
+    width: 40%;
+    height: 70%;
     /* border:2px solid red; */
-} 
+}
 
- #profile>img{
-    width:90%;
-    height: 80%;
-} 
+#profile>img{
+    width:100%;
+    height: 100%;
+}
 
-#contact-us{
-    width: 100%;
-    height: 500px;
+#form {
+    width: 95vw;
     margin: auto;
-    /* border: 2px solid blue; */
-}
+    margin-top: 50px;
+    /* border: 2px solid red; */
+  }
 
- #contact-us>h1{
-   width: 50%;
-   color:#FCAF02;
-   font-size: 64px;
-   font-style: normal;
-   font-weight: 600;
-   line-height: normal;
-   margin-left:30px;
-   margin-top: 20px;
-   /* border: 2px solid blue; */
-}
+  #form > h2 {
+    color: #fcaf02;
+    font-size: 60px;
+    font-weight: 700;
+  }
+  
+  #form > form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
 
-form{
-    width:90%;
-    height: 400px;
-    margin-left: 30px;
-    /* border: 2px solid blue; */
-}
-
-form>input{
-    width:90%;
-    height: 50px;
-    border-radius: 100px;
-    margin-top: 30px;
+  input {
+    height: 70px;
     background-color: black;
-    border: 2px solid #FCAF02;
+    color: #fcaf02;
+    width: 100%;
+    border-radius: 100px;
+    border: 2px solid #fcaf02;
+    margin-top: 40px;
+  }
+
+  ::placeholder {
+    color: #fcaf02;
+    font-size: 28px;
     padding-left: 30px;
-    font-size: 15px;
-    color: white;
-    outline:none;
-}
+  }
 
-::placeholder{
-    color: #FCAF02;
-    font-size: 18px;
-    padding: 10px;
-}
-
- .tel{
-    width:45%;
+  form > div {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    gap: 30px;
+  }
+  
+  form > button {
+    width: 300px;
+    height: 70px;
     border-radius: 100px;
-    margin-top: 30px;
-    background-color: black;
-    border: 2px solid #FCAF02;
-} 
-
-.btn{
-width: 250px;
-height: 50px;
-text-align: center;
-border-radius: 100px;
-margin-top: 40px;
-border: 2px solid #FCAF02;
-background-color: #FCAF02;
-color: #000;
-font-size: 25px;
-font-style: normal;
-font-weight: 700;
-line-height: normal;
-margin-left: 35%;
-}
+    border: 2px solid #fcaf02;
+    color: #000;
+    font-size: 32px;
+    font-weight: 700;
+    background: #fcaf02;
+    margin-top: 40px;
+  }
 
 #table{
-    width: 90%;
+    width: 95vw;
     margin: auto;
+    margin-top: 40px;
+    border: 2px solid red;
 }
 
 #table>table{
     border: 1px solid #FCAF02;
     border-collapse: collapse;
     color: #FCAF02;
-    width: 98%;
+    width: 100%;
     font-size: 20px;
     font-weight: 400;
     line-height: 34px;
